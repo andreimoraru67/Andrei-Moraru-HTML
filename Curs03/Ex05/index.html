@@ -17,7 +17,33 @@
 </head>
 
 <body>
-  <form>
+  <form method="post">
+    <label for="email">Email: *</label>
+    <input
+      type="email"
+      name="email"
+      placeholder="Email"
+      id="email"
+      required
+    ><br>
+
+    <label for="password">Password: *</label>
+    <input
+      type="password"
+      name="password"
+      placeholder="Password"
+      id="password"
+      required
+    ><br>
+
+    <label for="remember">Remember me?</label>
+    <input
+      type="checkbox"
+      name="remember"
+      id="remember"
+      required
+    ><br><br>
+
     <button type="submit">Trimite</button>
   </form>
 
