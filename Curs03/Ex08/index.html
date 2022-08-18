@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <form>
+  <form method="post">
     <label for="name">Nume</label>
     <input
       type="text"
@@ -24,6 +24,25 @@
       name="name"
       value="Dragos"
     >
+
+    <input
+      type="text"
+      id="surname"
+      name="surname"
+      placeholder="Surname"
+    >
+
+    <button
+      type="submit"
+      name="submit"
+      id="submit"
+    >Submit</button>
+
+    <button
+      type="reset"
+      name="reset"
+      title="Reset"
+    >Reset</button>
   </form>
 
   <div
